@@ -1,0 +1,20 @@
+{
+	"name": "t3docs/codesnippets",
+	"description" : "Code snippets generator for TYPO3 documentation",
+	"license": "GPL-2.0-or-later",
+	"config": {
+		"sort-packages": true
+	},
+    "autoload": {
+        "psr-4": {
+            "T3docs\\RestructuredApiTools\\": "src/"
+        }
+    },
+	"require": {
+        "php": ">= 7.2.5",
+		"haydenpierce/class-finder": "^0.4.3",
+		"phpdocumentor/reflection-common": "^2.2",
+		"phpdocumentor/reflection-docblock": "^5.3",
+		"symfony/console": "^5.4 || ^6.0"
+	}
+}
