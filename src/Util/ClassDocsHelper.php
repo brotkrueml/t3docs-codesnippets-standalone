@@ -345,7 +345,9 @@ The following list contains all public classes in namespace :php:`%s`.
         } else {
             $content = sprintf(
                 $template,
-                $classReflection->getName(), $classSignature . $classBody);
+                str_replace('\\', '\\\\', $classReflection->getName()),
+                $classSignature . $classBody
+            );
         }
 
         return $content;
