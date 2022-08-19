@@ -1,5 +1,5 @@
 {
-	"name": "t3docs/codesnippets",
+	"name": "brotkrueml/t3docs-codesnippets-standalone",
 	"description" : "Code snippets generator for TYPO3 documentation",
 	"license": "GPL-2.0-or-later",
 	"config": {
