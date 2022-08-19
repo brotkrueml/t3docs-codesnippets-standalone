@@ -6,7 +6,13 @@ Generate API documentation as RST files out of PHP files.
 The code is extracted from [TYPO3-Documentation/t3docs-codesnippets](https://github.com/TYPO3-Documentation/t3docs-codesnippets)
 to run without a TYPO3 installation.
 
-To generate documentation add a `codesnippets.php` file with the following content:
+To install it, run:
+
+```bash
+composer req --dev brotkrueml/t3docs-codesnippets-standalone
+```
+
+To generate API documentation add a `codesnippets.php` file in your project, for example:
 
 ```php
 <?php
@@ -26,10 +32,11 @@ To create/update the code snippets just execute:
 vendor/bin/generate-codesnippets </path/to/codesnippets.php>
 ```
 
+The path must be without `codesnippets.php`!
+
 For now, it is just a proof of concept.
 
 To do:
-- Test with other libraries
 - Clean up of code
-- Add CI workflow
 - More documentation
+- Add CI workflow
