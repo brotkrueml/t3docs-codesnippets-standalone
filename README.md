@@ -23,12 +23,13 @@ return [
 To create/update the code snippets just execute:
 
 ```bash
-php bin/run.php </path/to/codesnippets.php>
+vendor/bin/generate-codesnippets </path/to/codesnippets.php>
 ```
 
-For now it is just a proof of concept.
+For now, it is just a proof of concept.
 
 To do:
 - Test with other libraries
 - Clean up of code
 - Add CI workflow
+- More documentation

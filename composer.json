@@ -10,8 +10,10 @@
             "T3docs\\RestructuredApiTools\\": "src/"
         }
     },
+    "bin": ["bin/generate-codesnippets"],
 	"require": {
         "php": ">= 7.2.5",
+        "composer-runtime-api": "^2.2",
 		"haydenpierce/class-finder": "^0.4.3",
 		"phpdocumentor/reflection-common": "^2.2",
 		"phpdocumentor/reflection-docblock": "^5.3",
